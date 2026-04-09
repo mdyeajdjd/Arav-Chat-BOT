@@ -6,7 +6,7 @@ module.exports.config = {
     name: "help",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫",
     description: "Shows all commands with details",
     commandCategory: "system",
     usages: "[command name/page number]",
@@ -22,7 +22,7 @@ module.exports.languages = {
         "moduleInfo": `╭━━━━━━━━━━━━━━━━╮
 ┃ ✨ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐈𝐍𝐅𝐎 ✨
 ┣━━━━━━━━━━━┫
-┃ 🔖 Name: %1
+┃ 🔖 Name: 𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫
 ┃ 📄 Usage: %2
 ┃ 📜 Description: %3
 ┃ 🔑 Permission: %4
@@ -30,9 +30,9 @@ module.exports.languages = {
 ┃ 📂 Category: %6
 ┃ ⏳ Cooldown: %7s
 ┣━━━━━━━━━━━━━━━━┫
-┃ ⚙ Prefix: %8
-┃ 🤖 Bot Name: %9
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ ⚙ Prefix:!
+┃ 🤖 Bot Name:𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫
+┃ 👑 Owner: 𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -80,7 +80,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
     );  
 
     downloadImages(files => {  
@@ -143,8 +143,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫"}
+┃ 👑 Owner: 𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  

@@ -21,6 +21,9 @@ module.exports.handleEvent = async function ({ api, event }) {
   const msg = body.toLowerCase().trim();
 
   const responses = {
+    "coca arav": "I Love 𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫_",
+    "arav": "Miss Kri Tomake Onk_",
+    "TT": " It's Me Tmr Abuu Coca Arav_",
     "miss you": "অরেক বেডারে Miss না করে xan মেয়ে হলে বস সাহু রে হাঙ্গা করো😶👻😘",
     "miss u too": "হুম আমি ও তোমাকে Miss করি... কিন্তু সাহু বস বেশি করে 😏💖",
     "kiss de": "কিস দিস না তোর মুখে দূর গন্ধ কয়দিন ধরে দাঁত ব্রাশ করিস নাই🤬",

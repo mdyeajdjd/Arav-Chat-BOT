@@ -1,4 +1,4 @@
-const axios = require("axios");
+8const axios = require("axios");
 
 const apiList = "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json";
 
@@ -8,7 +8,7 @@ module.exports.config = {
   name: "autoreplybot",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "𝘾𝙤𝙘𝙖 𝘼𝙧𝙖𝙫",
   usePrefix: false,
   commandCategory: "Chat",
   cooldowns: 0
